@@ -1,0 +1,26 @@
+{
+    "name": "sherlockboy/mohirai-laravel",
+    "description": "Package to integrate MohirAI to Laravel",
+    "type": "package",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sherlockboy\\MohiraiLaravel\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Sherlockboy\\MohiraiLaravel\\MohiraiServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "Khurshidbek Kobilov",
+            "email": "kabilovhurshid5@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
